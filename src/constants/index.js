@@ -81,8 +81,7 @@ export const aboutFeaturs = [
   },
   {
     title: "Expert Instructors",
-    description:
-      "Our courses are led by industry experts and seasoned educators.",
+    description: "Our courses are led by industry experts and seasoned educators.",
   },
   {
     title: "Diverse Course Catalog",
@@ -91,18 +90,11 @@ export const aboutFeaturs = [
   },
   {
     title: "Community Engagement",
-    description:
-      "Join our thriving learning community, connect with fellow students and instructors.",
+    description: "Join our thriving learning community, connect with fellow students and instructors.",
   },
 ];
 
-export const categories = [
-  "All",
-  "Technology",
-  "Marketing",
-  "Arts",
-  "Business",
-];
+export const categories = ["All", "Technology", "Marketing", "Arts", "Business"];
 
 export const courses = [
   {
@@ -112,19 +104,19 @@ export const courses = [
     difficulty: "Beginner",
     thumbnail: course01,
     instructor: {
-      name: "Sarah Johnson",
+      name: "Taylor Swift",
       pic: instructor01,
     },
     rating: 4.7,
   },
   {
     id: 2,
-    title: "Data Science Fundamentals",
+    title: "Learn Web Programming Basics",
     category: "Technology",
     difficulty: "Intermediate",
     thumbnail: course02,
     instructor: {
-      name: "Michael Chen",
+      name: "Teguh Bagmar",
       pic: instructor02,
     },
     rating: 4.9,
@@ -136,7 +128,7 @@ export const courses = [
     difficulty: "Advanced",
     thumbnail: course03,
     instructor: {
-      name: "Emily Davis",
+      name: "Ariana Grande",
       pic: instructor03,
     },
     rating: 4.8,
@@ -148,7 +140,7 @@ export const courses = [
     difficulty: "Beginner",
     thumbnail: course04,
     instructor: {
-      name: "James Anderson",
+      name: "Billie Eilish",
       pic: instructor04,
     },
     rating: 4.6,
@@ -160,7 +152,7 @@ export const courses = [
     difficulty: "Intermediate",
     thumbnail: course05,
     instructor: {
-      name: "Mark Roberts",
+      name: "Bruno Mars",
       pic: instructor05,
     },
     rating: 4.7,
@@ -172,7 +164,7 @@ export const courses = [
     difficulty: "Intermediate",
     thumbnail: course06,
     instructor: {
-      name: "Laura Williams",
+      name: "Lana Del Rey",
       pic: instructor06,
     },
     rating: 4.8,
@@ -184,7 +176,7 @@ export const courses = [
     difficulty: "Beginner",
     thumbnail: course07,
     instructor: {
-      name: "Maria Rodriguez",
+      name: "Bernadya",
       pic: instructor07,
     },
     rating: 4.9,
@@ -196,7 +188,7 @@ export const courses = [
     difficulty: "Advanced",
     thumbnail: course08,
     instructor: {
-      name: "Thomas Lee",
+      name: "Mark Lee",
       pic: instructor08,
     },
     rating: 4.6,
@@ -208,7 +200,7 @@ export const courses = [
     difficulty: "Intermediate",
     thumbnail: course09,
     instructor: {
-      name: "John Smith",
+      name: "Jisung",
       pic: instructor09,
     },
     rating: 4.8,
@@ -220,7 +212,7 @@ export const courses = [
     difficulty: "Advanced",
     thumbnail: course10,
     instructor: {
-      name: "Laura Davis",
+      name: "NIKI",
       pic: instructor10,
     },
     rating: 4.9,
@@ -232,7 +224,7 @@ export const courses = [
     difficulty: "Beginner",
     thumbnail: course11,
     instructor: {
-      name: "Rachel White",
+      name: "Laufey",
       pic: instructor11,
     },
     rating: 4.6,
@@ -244,7 +236,7 @@ export const courses = [
     difficulty: "Intermediate",
     thumbnail: course12,
     instructor: {
-      name: "Mike Johnson",
+      name: "Le Je-hoon",
       pic: instructor12,
     },
     rating: 4.6,
@@ -256,7 +248,7 @@ export const courses = [
     difficulty: "Intermediate",
     thumbnail: course13,
     instructor: {
-      name: "Alex Turner",
+      name: "Ji Chang-wook",
       pic: instructor13,
     },
     rating: 4.7,
@@ -266,91 +258,91 @@ export const courses = [
 export const instructors = [
   {
     id: 1,
-    name: "Sarah Johnson",
+    name: "Taylor Swift",
     specialty: "Software Engineer",
     pic: instructor01,
     rating: 4.5,
   },
   {
     id: 2,
-    name: "Michael Chen",
-    specialty: "Data Scientist",
+    name: "Teguh Bagmar",
+    specialty: "Web Developer",
     pic: instructor02,
     rating: 4.7,
   },
   {
     id: 3,
-    name: "Emily Davis",
+    name: "Ariana Grande",
     specialty: "Digital Marketing Manager",
     pic: instructor03,
     rating: 4.6,
   },
   {
     id: 4,
-    name: "James Anderson",
+    name: "Billie Eilish",
     specialty: "Photographer",
     pic: instructor04,
     rating: 4.9,
   },
   {
     id: 5,
-    name: "Mark Roberts",
+    name: "Bruno Mars",
     specialty: "Business Manager",
     pic: instructor05,
     rating: 4.8,
   },
   {
     id: 6,
-    name: "Laura Williams",
+    name: "Lana Del Rey",
     specialty: "Digital Marketing Manager",
     pic: instructor06,
     rating: 4.9,
   },
   {
     id: 7,
-    name: "Maria Rodriguez",
+    name: "Bernadya",
     specialty: "Data Scientist",
     pic: instructor07,
     rating: 4.7,
   },
   {
     id: 8,
-    name: "Thomas Lee",
+    name: "Mark Lee",
     specialty: "Digital Marketing",
     pic: instructor08,
     rating: 4.6,
   },
   {
     id: 9,
-    name: "John Smith",
+    name: "Jisung",
     specialty: "Software Engineer",
     pic: instructor09,
     rating: 4.5,
   },
   {
     id: 10,
-    name: "Laura Davis",
+    name: "NIKI",
     specialty: "Digital Marketing",
     pic: instructor10,
     rating: 4.9,
   },
   {
     id: 11,
-    name: "Rachel White",
+    name: "Laufey",
     specialty: "Artist",
     pic: instructor11,
     rating: 4.7,
   },
   {
     id: 12,
-    name: "Mike Johnson",
+    name: "Le Je-hoon",
     specialty: "Business Manager",
     pic: instructor12,
     rating: 4.6,
   },
   {
     id: 13,
-    name: "Alex Turner",
+    name: "Ji Chang-wook",
     specialty: "Cybersecurity",
     pic: instructor13,
     rating: 4.8,
@@ -367,8 +359,7 @@ export const blogs = [
   {
     id: 2,
     title: "The Power of Data: Insights for Business Success",
-    description:
-      "Learn how to harness the power of data analytics, interpret trends.",
+    description: "Learn how to harness the power of data analytics, interpret trends.",
     thumbnail: blog02,
   },
   {
@@ -381,8 +372,7 @@ export const blogs = [
   {
     id: 4,
     title: "The Future of Work: Navigating Remote Collaboration",
-    description:
-      "Explore the latest trends and tools shaping remote collaboration.",
+    description: "Explore the latest trends and tools shaping remote collaboration.",
     thumbnail: blog04,
   },
 ];

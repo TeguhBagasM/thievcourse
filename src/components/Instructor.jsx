@@ -12,10 +12,10 @@ const Instructor = ({ id, name, specialty, pic, rating }) => {
       <div className="flex flex-col gap-y-4">
         <div className="flex flex-col">
           <div className="flex justify-between">
-            <p className="mb-1.5 text-lg text-gray-10">{name}</p>
+            <p className="mb-1.5 text-lg text-gray-10 dark:text-gray-200">{name}</p>
             <div className="flex items-center gap-x-1.5">
               <RiStarFill className="text-primary-50" size={20} />
-              <p className="text-base text-gray-10">{rating}</p>
+              <p className="text-base text-gray-10 dark:text-gray-300">{rating}</p>
             </div>
           </div>
           <p className="text-base text-gray-60">{specialty}</p>
@@ -23,7 +23,7 @@ const Instructor = ({ id, name, specialty, pic, rating }) => {
 
         <a
           href="#"
-          className="flex items-center justify-center group/view-btn btn btn-outline gap-x-2 !w-full"
+          className="flex items-center justify-center group/view-btn btn btn-outline gap-x-2 !w-full dark:text-gray-200"
         >
           View Profile
           <svg

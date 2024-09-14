@@ -23,7 +23,10 @@ const Hero = () => {
                 technology to the arts and beyond
               </p>
             </div>
-            <button type="button" className="btn btn-primary">
+            <button
+              type="button"
+              className="relative px-6 py-2 border-2 rounded-full bg-white text-gray-950 font-semibold dark:bg-gray-950 dark:text-gray-100 transition-colors duration-300 focus:outline-none focus:ring-2 focus:ring-blue-300 animate-border-animate border-transparent shadow-lg shadow-blue-500/50 hover:shadow-blue-700/70 dark:hover:shadow-blue-500/70"
+            >
               Get Started
             </button>
           </motion.div>

@@ -34,20 +34,20 @@ const Courses = () => {
               <div className="flex items-center px-6 w-[calc(100%-1.5rem)] overflow-auto">
                 {categories?.map((item, index) => (
                   <div
-                    className={`group flex items-center justify-center min-w-[120px] px-8 py-6 bg-white rounded-t-4xl hover:bg-gray-30 [&:is(.active)]:!bg-gray-10 cursor-pointer transition-colors duration-300  ${
+                    className={`group flex items-center justify-center min-w-[120px] px-8 py-6 bg-white dark:bg-gray-900 dark:text-gray-200 rounded-t-4xl hover:bg-gray-30 [&:is(.active)]:!bg-gray-800 cursor-pointer transition-colors duration-300  ${
                       activeCategory === item ? "active" : ""
                     }`}
                     key={index}
                     onClick={() => handleCategory(item)}
                   >
-                    <p className="text-xl font-medium md:text-2xl text-gray-10 group-hover:text-white group-[.active]:text-white transition-colors duration-300">
+                    <p className="text-xl font-medium md:text-2xl dark:text-gray-300 text-gray-10 group-hover:text-white group-[.active]:text-white transition-colors duration-300">
                       {item}
                     </p>
                   </div>
                 ))}
               </div>
 
-              <div className="grid w-full grid-cols-1 gap-2 md:grid-cols-2 xl:grid-cols-3 min-h-[540px] p-4 bg-gray-10 rounded-4xl">
+              <div className="grid w-full grid-cols-1 gap-2 md:grid-cols-2 xl:grid-cols-3 min-h-[540px] p-4 bg-gray-200 dark:bg-gray-800 rounded-4xl">
                 {categorizedCourses?.map((course) => (
                   <MotionCourse
                     key={course.id}

@@ -68,6 +68,18 @@ export default {
       borderRadius: {
         "4xl": "32px",
       },
+      keyframes: {
+        "border-animate": {
+          "0%": { borderColor: "#3b82f6" },
+          "25%": { borderColor: "#0074c4" },
+          "50%": { borderColor: "#33aaff" },
+          "75%": { borderColor: "#99d3ff" },
+          "100%": { borderColor: "#3b82f6" },
+        },
+      },
+      animation: {
+        "border-animate": "border-animate 3s linear infinite",
+      },
     },
   },
   plugins: [],

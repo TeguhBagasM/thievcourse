@@ -1,5 +1,5 @@
 import React from "react";
-import { FaInstagram, FaFacebookF, FaEnvelope, FaHeart, FaTiktok } from "react-icons/fa";
+import { FaInstagram, FaEnvelope, FaHeart, FaTiktok, FaLinkedin, FaWhatsapp } from "react-icons/fa";
 import logo from "../assets/logo-thieverse.png";
 
 const Footer = () => {
@@ -12,32 +12,28 @@ const Footer = () => {
             <img src={logo} alt="Logo" className="h-12 w-auto mb-4 md:mb-0 md:mr-3" />
           </div>
           <div className="flex space-x-4 mt-2">
-            <a href="https://instagram.com/csa_stmikmi" target="_blank" rel="noopener noreferrer">
+            <a href="https://instagram.com/teguhbagasm" target="_blank" rel="noopener noreferrer">
               <FaInstagram
                 className="dark:text-gray-300 text-gray-600 dark:hover:text-gray-100 hover:text-gray-700"
                 size={20}
               />
             </a>
-            <a
-              href="https://tiktok.com/@we_csa01?_t=8peEbgVBEof&_r=1"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <FaTiktok
+            <a href="https://wa.me/+6281321821374" target="_blank" rel="noopener noreferrer">
+              <FaWhatsapp
                 className="dark:text-gray-300 text-gray-600 dark:hover:text-gray-100 hover:text-gray-700"
                 size={20}
               />
             </a>
             <a
-              href="https://facebook.com/profile.php?id=100078881016780"
+              href="https://linkedin.com/in/teguh-bagas-mardiansyah-8390572b7/"
               target="_blank"
               rel="noopener noreferrer"
               className="dark:text-gray-300 text-gray-600 dark:hover:text-gray-100 hover:text-gray-700"
             >
-              <FaFacebookF size={20} />
+              <FaLinkedin size={20} />
             </a>
             <a
-              href="mailto:csaworks2017@gmail.com"
+              href="mailto:teguhbagas2134@gmail.com"
               className="dark:text-gray-300 text-gray-600 dark:hover:text-gray-100 hover:text-gray-800"
             >
               <FaEnvelope size={20} />
@@ -68,7 +64,14 @@ const Footer = () => {
       <div className="border-t dark:border-gray-700 border-gray-400 mt-8 pt-4 text-center text-sm dark:text-gray-300 text-gray-800">
         <p>
           © 2024 Made with <FaHeart className="inline text-red-500" /> by{" "}
-          <span className="text-blue-500 font-semibold">Teguh Bagas M</span>
+          <a
+            href="https://teguhbagasm.vercel.app"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-blue-500 font-semibold"
+          >
+            Teguh Bagas M
+          </a>
         </p>
       </div>
     </footer>
