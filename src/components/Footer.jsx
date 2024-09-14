@@ -52,7 +52,7 @@ const Footer = () => {
             <input
               type="email"
               placeholder="Masukan email anda"
-              className="p-3 rounded-md text-gray-800 mb-4 md:mb-0 md:mr-4 w-full md:w-auto"
+              className="p-3 rounded-md text-gray-800 mb-4 md:mb-0 md:mr-4 w-full md:w-auto dark:bg-gray-800 dark:text-gray-100"
             />
             <button
               type="submit"
@@ -68,7 +68,7 @@ const Footer = () => {
       <div className="border-t dark:border-gray-700 border-gray-400 mt-8 pt-4 text-center text-sm dark:text-gray-300 text-gray-800">
         <p>
           © 2024 Made with <FaHeart className="inline text-red-500" /> by{" "}
-          <span className="text-blue-500 font-semibold">CSA</span>
+          <span className="text-blue-500 font-semibold">Teguh Bagas M</span>
         </p>
       </div>
     </footer>
