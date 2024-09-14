@@ -3,7 +3,7 @@ import { About, Blogs, Courses, Hero, Instructors, PopularCourses } from "./sect
 
 export default function App() {
   return (
-    <>
+    <div className="dark:bg-gray-950">
       <Header />
       <Hero />
       <Statistics />
@@ -14,6 +14,6 @@ export default function App() {
       <Blogs />
       <CTA />
       <Footer />
-    </>
+    </div>
   );
 }

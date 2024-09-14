@@ -81,24 +81,12 @@
   }
 }
 
-::-webkit-scrollbar {
-  width: 10px;
-  height: 8px;
-}
-
-::-webkit-scrollbar-thumb {
-  background-color: #d1d5db;
-  border-radius: 100vmax;
-  border: 2px solid transparent;
-  background-clip: content-box;
-}
-
 .header__menu-icon span {
   display: block;
   position: absolute;
   width: 20px;
   height: 2px;
-  background-color: #292c32;
+  background-color: #174db9;
   transition: all 200ms ease;
 }
 
