@@ -23,7 +23,7 @@ const SliderNavigation = forwardRef((_, ref) => {
             className="transition-colors duration-300 group-hover:stroke-white"
           />
         </svg>
-        <p className="hidden sm:block">Prev</p>
+        <p className="hidden sm:block dark:text-gray-300">Prev</p>
       </button>
 
       <button
@@ -31,7 +31,7 @@ const SliderNavigation = forwardRef((_, ref) => {
         className="flex items-center justify-center px-0 w-14 group btn btn-outline gap-x-2 sm:w-fit sm:px-6"
         onClick={() => ref.current.swiper.slideNext()}
       >
-        <p className="hidden sm:block">Next</p>
+        <p className="hidden sm:block dark:text-gray-200">Next</p>
 
         <svg
           width="71"
@@ -45,7 +45,7 @@ const SliderNavigation = forwardRef((_, ref) => {
             d="M0.612732 25.4016H64.4928M38.4571 1.9472C43.2016 10.3343 51.0356 19.7372 64.4928 25.4472C51.0356 31.1572 43.2016 40.5601 38.4571 48.9472"
             stroke="#292C32"
             strokeWidth="4.5"
-            className="transition-colors duration-300 group-hover:stroke-white"
+            className="transition-colors duration-200 group-hover:stroke-white"
           />
         </svg>
       </button>

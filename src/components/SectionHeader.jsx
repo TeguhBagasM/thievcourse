@@ -9,7 +9,7 @@ const SectionHeader = ({ title, link }) => {
         initial="hidden"
         whileInView="visible"
         viewport={{ once: true }}
-        className="relative section-title-after text-h2 text-gray-10"
+        className="relative section-title-after text-h2 text-gray-10 dark:text-gray-200"
       >
         {title}
       </motion.h2>
@@ -20,7 +20,7 @@ const SectionHeader = ({ title, link }) => {
         whileInView="visible"
         viewport={{ once: true }}
         href={link}
-        className="text-xl link"
+        className="text-xl link dark:text-gray-200 dark:hover:text-blue-500"
       >
         See All
       </motion.a>

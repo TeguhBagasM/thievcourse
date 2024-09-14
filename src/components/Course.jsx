@@ -4,11 +4,7 @@ const DifficultyLevel = ({ difficulty }) => {
   let spans = [],
     index = 0;
   index =
-    difficulty.toLowerCase() === "beginner"
-      ? 1
-      : difficulty.toLowerCase() === "intermediate"
-      ? 2
-      : 3;
+    difficulty.toLowerCase() === "beginner" ? 1 : difficulty.toLowerCase() === "intermediate" ? 2 : 3;
 
   for (let i = 0; i < 3; i++) {
     spans.push(
@@ -26,18 +22,7 @@ const DifficultyLevel = ({ difficulty }) => {
 };
 
 const Course = forwardRef(
-  (
-    {
-      id,
-      title,
-      category,
-      difficulty,
-      thumbnail,
-      instructor: { name, pic },
-      rating,
-    },
-    ref
-  ) => {
+  ({ id, title, category, difficulty, thumbnail, instructor: { name, pic }, rating }, ref) => {
     return (
       <div
         className="relative group h-[250px] border-[1.5px] border-solid border-transparent rounded-4xl overflow-hidden transition-colors duration-300"
@@ -50,21 +35,17 @@ const Course = forwardRef(
           <img src={thumbnail} alt="title" />
         </div>
 
-        <div className="absolute inset-x-0 bottom-0 h-24 p-2 m-2 bg-white border-[1.5px] border-solid border-transparent rounded-3xl  transition-colors duration-300 group-hover:border-gray-10">
-          <a
-            href="#"
-            className="flex flex-col justify-between h-full "
-            title={title}
-          >
+        <div className="absolute inset-x-0 bottom-0 h-24 p-2 m-2 bg-white dark:bg-gray-900 border-[1.5px] border-solid border-transparent rounded-3xl  transition-colors duration-300 group-hover:border-gray-10">
+          <a href="#" className="flex flex-col justify-between h-full " title={title}>
             {/* ===== course title ===== */}
 
             <div className="flex justify-between gap-4">
-              <p className="overflow-hidden text-lg font-medium text-gray-10 whitespace-nowrap text-ellipsis">
+              <p className="overflow-hidden text-lg font-medium text-gray-10 whitespace-nowrap dark:text-gray-200 text-ellipsis">
                 {title}
               </p>
 
               <div className="flex items-center gap-4 p-1 rounded-md h-fit bg-[var(--bg-alpha-35)]">
-                <p className="text-sm font-semibold text-gray-10 !leading-[normal] ">
+                <p className="text-sm font-semibold text-gray-10 dark:text-gray-200 !leading-[normal] ">
                   {difficulty}
                 </p>
 
@@ -80,14 +61,13 @@ const Course = forwardRef(
                 <div className="overflow-hidden rounded-full w-9 h-9">
                   <img src={pic} alt={name} />
                 </div>
-                <p className="text-base font-medium">{name}</p>
+                <p className="text-base font-medium dark:text-gray-200">{name}</p>
               </div>
               <div className="flex items-center gap-x-2">
                 <RiStarFill className="text-primary-50" size={20} />
-                <p className="text-base font-semibold">{rating}</p>
+                <p className="text-base font-semibold dark:text-gray-200">{rating}</p>
               </div>
             </div>
-            
           </a>
         </div>
       </div>

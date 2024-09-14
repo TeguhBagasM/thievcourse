@@ -1,5 +1,4 @@
 import SectionHeader from "../components/SectionHeader";
-import { register } from "swiper/element/bundle";
 import { courses } from "./../constants/index";
 import "swiper/css";
 import Course from "./../components/Course";
