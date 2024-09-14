@@ -1,4 +1,5 @@
-import { FaSun, FaMoon } from "react-icons/fa";
+import { FaSun } from "react-icons/fa";
+import { BsMoonStarsFill } from "react-icons/bs";
 import { useEffect } from "react";
 
 function DarkModeSwitch({ enabled, setEnabled }) {
@@ -31,7 +32,7 @@ function DarkModeSwitch({ enabled, setEnabled }) {
         }`}
         aria-label="Switch to dark mode"
       >
-        <FaMoon className="text-gray-300 text-xl" />
+        <BsMoonStarsFill className="text-gray-100 text-xl" />
       </button>
     </div>
   );
