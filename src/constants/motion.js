@@ -1,13 +1,15 @@
-export const navbarVariants = {
+export const navbarVariants = (isDarkMode) => ({
   default: {
     backdropFilter: "blur(0px)",
-    backgroundColor: "rgba(255,255,255,0)",
-    borderBottomColor: "rgba(255,255,255,0)",
+    backgroundColor: isDarkMode ? "rgba(17, 24, 39, 0)" : "rgba(255,255,255,0)", // rgba untuk transparansi
+    borderBottomColor: isDarkMode ? "rgba(17, 24, 39, 0)" : "rgba(255,255,255,0)",
   },
   active: {
     backdropFilter: "blur(25px)",
-    backgroundColor: "rgba(255,255,255,0.6)",
-    borderBottomColor: "rgb(255,255,255)",
+    backgroundColor: isDarkMode
+      ? "rgba(17, 24, 39, 0.6)" // Blur pada dark mode
+      : "rgba(255,255,255,0.6)",
+    borderBottomColor: isDarkMode ? "rgb(17, 24, 39)" : "rgb(255,255,255)",
   },
   slide: {
     y: 0,
@@ -17,7 +19,7 @@ export const navbarVariants = {
       bounce: 0.3,
     },
   },
-};
+});
 
 export const mobileMenuVariants = {
   hidden: {
