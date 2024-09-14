@@ -30,13 +30,13 @@ const About = () => {
               {aboutFeaturs?.map((feature) => (
                 <div
                   key={feature.title}
-                  className="flex flex-col group basis-[240px] flex-grow border border-solid border-gray-10 rounded-3xl p-4 text-start hover:bg-gray-10 transition-colors duration-300'
+                  className="flex flex-col group basis-[240px] flex-grow border border-solid border-gray-10 dark:border-gray-200 rounded-3xl p-4 text-start hover:bg-blue-500 transition-colors duration-300'
                 "
                 >
-                  <p className="text-xl font-semibold text-gray-10 !leading-[normal] group-hover:text-white">
+                  <p className="text-xl font-semibold text-gray-10 dark:text-gray-100 !leading-[normal] group-hover:text-white">
                     {feature.title}
                   </p>
-                  <p className="text-base font-medium leading-normal text-gray-60 group-hover:text-gray-90">
+                  <p className="text-base font-medium leading-normal text-gray-60 dark:text-gray-300 group-hover:text-gray-90">
                     {feature.description}
                   </p>
                 </div>
