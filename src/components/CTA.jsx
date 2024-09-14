@@ -11,8 +11,8 @@ const CTA = () => {
       className="py-[70px]"
     >
       <div className="container h-[400px]">
-        <div className="flex flex-col items-center justify-center w-full h-full px-4 gap-y-8 bg-[url('/src/assets/cta-bg.png')] border border-solid border-gray-10 rounded-4xl">
-          <h2 className="relative text-center section-title-after text-h2 text-gray-10">
+        <div className="flex flex-col items-center justify-center w-full h-full px-4 gap-y-8 bg-gradient-to-r from-cyan-500 to-blue-600 dark:from-cyan-600 dark:to-blue-900 border border-solid border-gray-10 rounded-4xl">
+          <h2 className="relative text-center section-title-after text-h2 text-gray-100">
             Join Our Learning <br /> Community
           </h2>
 
@@ -24,7 +24,7 @@ const CTA = () => {
                 id="email"
                 placeholder="Enter Your Email"
                 autoComplete="off"
-                className="w-full px-4 text-base bg-transparent outline-0 placeholder:text-gray-40"
+                className="w-full px-4 text-base bg-transparent outline-0 placeholder:text-gray-900"
               />
               <button
                 type="submit"
