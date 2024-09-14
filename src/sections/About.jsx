@@ -17,12 +17,12 @@ const About = () => {
             className="flex flex-col gap-y-8 lg:w-[53%] w-auto flex-shrink-0 text-center lg:text-start   "
           >
             <div className="flex flex-col gap-y-4">
-              <h2 className="relative section-title-after text-h2 text-gray-10">
+              <h2 className="relative section-title-after text-h2 text-gray-10 dark:text-gray-100">
                 Your Trusted Source for Quality Online Education
               </h2>
-              <p className="text-base font-medium text-gray-60">
-                Charting a Path from Passion to Excellence in Online Education –
-                Guiding You Toward Your Aspirations and Lifelong Learning Goals
+              <p className="text-base font-medium text-gray-60 dark:text-gray-300">
+                Charting a Path from Passion to Excellence in Online Education – Guiding You Toward
+                Your Aspirations and Lifelong Learning Goals
               </p>
             </div>
 
