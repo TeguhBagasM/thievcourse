@@ -56,19 +56,19 @@ export const navLinks = [
 
 export const statistics = [
   {
-    number: "7+",
+    number: "3+",
     text: "Years Experience",
   },
   {
-    number: "700K",
+    number: "100+",
     text: "Students",
   },
   {
-    number: "1K+",
+    number: "10",
     text: "Instructor",
   },
   {
-    number: "150+",
+    number: "5+",
     text: "Courses",
   },
 ];

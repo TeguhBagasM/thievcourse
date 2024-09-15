@@ -29,7 +29,7 @@ const Header = () => {
       transition={{ duration: 0.3 }}
       className="fixed items-center h-[70px] z-[1000] w-full border-solid border-transparent"
     >
-      <nav className="container flex items-center justify-between p-5 md:p-3 lg:p-2 gap-x-16">
+      <nav className="container xl:mt-2 flex items-center justify-between p-5 md:p-3 lg:p-2 gap-x-16">
         <a href="/" className="text-2xl font-bold">
           <img src={Logo} alt="Logo" className="w-40 h-auto" />
         </a>
