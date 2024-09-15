@@ -71,14 +71,14 @@ export default {
       keyframes: {
         "border-animate": {
           "0%": { borderColor: "#3b82f6" },
-          "25%": { borderColor: "#0074c4" },
-          "50%": { borderColor: "#33aaff" },
-          "75%": { borderColor: "#99d3ff" },
+          "25%": { borderColor: "#ec4899" },
+          "50%": { borderColor: "#06b6d4" },
+          "75%": { borderColor: "#ec4899" },
           "100%": { borderColor: "#3b82f6" },
         },
       },
       animation: {
-        "border-animate": "border-animate 3s linear infinite",
+        "border-animate": "border-animate 4s linear infinite",
       },
     },
   },
