@@ -23,19 +23,19 @@ const Header = () => {
   return (
     <motion.header
       layout
-      variants={navbarVariants(darkMode)} // Pass darkMode state to navbarVariants function
+      variants={navbarVariants(darkMode)}
       initial={["default", { y: -100 }]}
       animate={[scrolled ? "active" : "default", "slide"]}
       transition={{ duration: 0.3 }}
       className="fixed items-center h-[70px] z-[1000] w-full border-solid border-transparent"
     >
-      <nav className="container mt-1 flex items-center justify-between p-5 md:p-3 lg:p-2 gap-x-16">
+      <nav className="container flex items-center justify-between p-5 md:p-3 lg:p-2 gap-x-16">
         <a href="/" className="text-2xl font-bold">
           <img src={Logo} alt="Logo" className="w-40 h-auto" />
         </a>
 
         <div className="hidden w-full lg:flex lg:justify-between">
-          <ul className="flex items-center gap-x-4">
+          <ul className="flex items-center gap-x-6">
             {navLinks?.map((link) => {
               return (
                 <li key={link.id}>
@@ -81,7 +81,10 @@ const Header = () => {
                 {navLinks?.map((link) => {
                   return (
                     <li key={link.id} className="h-8">
-                      <a href={`#${link.id}`} className="text-xl link dark:text-gray-100">
+                      <a
+                        href={`#${link.id}`}
+                        className="text-xl link dark:text-gray-100 dark:hover:text-blue-400"
+                      >
                         {link.title}
                       </a>
                     </li>
