@@ -30,6 +30,7 @@ import {
   instructor12,
   instructor13,
 } from "./images";
+import { FaComments, FaCalendarAlt, FaWallet, FaUserFriends, FaClock } from "react-icons/fa";
 
 export const navLinks = [
   {
@@ -56,41 +57,44 @@ export const navLinks = [
 
 export const statistics = [
   {
-    number: "3+",
-    text: "Years Experience",
+    number: "3",
+    text: "Layanan",
+  },
+  {
+    number: "10+",
+    text: "Tugas Diselesaikan",
+  },
+  {
+    number: "50+",
+    text: "Peserta Kursus",
   },
   {
     number: "100+",
-    text: "Students",
-  },
-  {
-    number: "10",
-    text: "Instructor",
-  },
-  {
-    number: "5+",
-    text: "Courses",
+    text: "Sesi Konsultasi",
   },
 ];
 
 export const aboutFeaturs = [
   {
-    title: "Our Vision",
+    title: "Konsultasi Kapan Saja",
+    description: "Dapatkan dukungan dan konsultasi kapan pun Anda membutuhkannya.",
+    icon: FaComments,
+  },
+  {
+    title: "Jadwal Fleksibel",
+    description: "Atur jadwal belajar sesuai dengan kenyamanan dan ketersediaan waktu Anda.",
+    icon: FaClock,
+  },
+  {
+    title: "Harga Terjangkau",
+    description: "Nikmati penawaran harga yang kompetitif dan ramah di kantong.",
+    icon: FaWallet,
+  },
+  {
+    title: "1 Mahasiswa atau Per Tim",
     description:
-      "We aspire to empower individuals from all walks of life to achieve their learning goals.",
-  },
-  {
-    title: "Expert Instructors",
-    description: "Our courses are led by industry experts and seasoned educators.",
-  },
-  {
-    title: "Diverse Course Catalog",
-    description:
-      "We offer a diverse range of courses spanning various fields, from technology and business to the arts and beyond.",
-  },
-  {
-    title: "Community Engagement",
-    description: "Join our thriving learning community, connect with fellow students and instructors.",
+      "Kelas fleksibel untuk 1 mahasiswa atau tim (maks. 10 orang) untuk belajar lebih fokus dan efektif.",
+    icon: FaUserFriends,
   },
 ];
 

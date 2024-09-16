@@ -69,15 +69,23 @@ export default {
         "4xl": "32px",
       },
       keyframes: {
+        "shadow-animate": {
+          "0%": { boxShadow: "0 0 10px 5px rgba(59, 130, 246, 0.7)" }, // Initial shadow
+          "25%": { boxShadow: "0 0 10px 5px rgba(236, 72, 153, 0.7)" }, // Intermediate shadow
+          "50%": { boxShadow: "0 0 10px 5px rgba(6, 182, 212, 0.7)" }, // Middle shadow
+          "75%": { boxShadow: "0 0 10px 5px rgba(236, 72, 153, 0.7)" }, // Intermediate shadow
+          "100%": { boxShadow: "0 0 10px 5px rgba(59, 130, 246, 0.7)" }, // Final shadow
+        },
         "border-animate": {
-          "0%": { borderColor: "#3b82f6" },
-          "25%": { borderColor: "#ec4899" },
-          "50%": { borderColor: "#ffff00" },
-          "75%": { borderColor: "#ec4899" },
-          "100%": { borderColor: "#3b82f6" },
+          "0%": { borderColor: "#3b82f6" }, // Initial border color
+          "25%": { borderColor: "#ec4899" }, // Intermediate border color
+          "50%": { borderColor: "#06b6d4" }, // Middle border color
+          "75%": { borderColor: "#ec4899" }, // Intermediate border color
+          "100%": { borderColor: "#3b82f6" }, // Final border color
         },
       },
       animation: {
+        "shadow-animate": "shadow-animate 4s linear infinite",
         "border-animate": "border-animate 2s linear infinite",
       },
     },
