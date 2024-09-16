@@ -35,7 +35,7 @@ const Header = () => {
         </a>
 
         <div className="hidden w-full lg:flex lg:justify-between">
-          <ul className="flex items-center gap-x-6">
+          <ul className="flex items-center gap-x-8">
             {navLinks?.map((link) => {
               return (
                 <li key={link.id}>
