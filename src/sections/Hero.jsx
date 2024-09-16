@@ -1,6 +1,7 @@
 import { hero01, hero02, hero03, roundedText } from "../constants/images";
 import { motion } from "framer-motion";
 import { leftSideVariants, rightSideVariants } from "./../constants/motion";
+import { FaWhatsapp } from "react-icons/fa";
 
 const Hero = () => {
   return (
@@ -26,8 +27,9 @@ const Hero = () => {
             </div>
             <button
               type="button"
-              className="relative px-6 py-2 border-2 rounded-full bg-white text-gray-950 font-semibold dark:bg-gray-950 dark:text-gray-100 transition-colors duration-300 focus:outline-none focus:ring-2 focus:ring-blue-300 animate-shadow-animate border-transparent shadow-lg shadow-blue-500/50 hover:shadow-blue-700/70 dark:hover:shadow-blue-500/70"
+              className="relative flex items-center px-6 py-2 border-1 rounded-full bg-white text-gray-950 font-semibold dark:bg-gray-950 dark:text-gray-100 transition-colors duration-300 focus:outline-none focus:ring-2 focus:ring-blue-300 animate-shadow-animate border-transparent"
             >
+              <FaWhatsapp className="mr-2 text-gray-950 dark:text-gray-100 text-xl" />
               Tanya via WhatsApp
             </button>
           </motion.div>

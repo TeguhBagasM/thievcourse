@@ -70,11 +70,11 @@ export default {
       },
       keyframes: {
         "shadow-animate": {
-          "0%": { boxShadow: "0 0 10px 5px rgba(59, 130, 246, 0.7)" }, // Initial shadow
-          "25%": { boxShadow: "0 0 10px 5px rgba(236, 72, 153, 0.7)" }, // Intermediate shadow
-          "50%": { boxShadow: "0 0 10px 5px rgba(6, 182, 212, 0.7)" }, // Middle shadow
-          "75%": { boxShadow: "0 0 10px 5px rgba(236, 72, 153, 0.7)" }, // Intermediate shadow
-          "100%": { boxShadow: "0 0 10px 5px rgba(59, 130, 246, 0.7)" }, // Final shadow
+          "0%": { boxShadow: "0 0 8px 4px rgba(59, 130, 246, 0.7)" }, // Initial shadow
+          "25%": { boxShadow: "0 0 8px 4px rgba(236, 72, 153, 0.7)" }, // Intermediate shadow
+          "50%": { boxShadow: "0 0 8px 4px rgba(6, 182, 212, 0.7)" }, // Middle shadow
+          "75%": { boxShadow: "0 0 8px 4px rgba(236, 72, 153, 0.7)" }, // Intermediate shadow
+          "100%": { boxShadow: "0 0 8px 4px rgba(59, 130, 246, 0.7)" }, // Final shadow
         },
         "border-animate": {
           "0%": { borderColor: "#3b82f6" }, // Initial border color
