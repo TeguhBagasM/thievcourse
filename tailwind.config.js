@@ -78,7 +78,7 @@ export default {
         },
       },
       animation: {
-        "border-animate": "border-animate 4s linear infinite",
+        "border-animate": "border-animate 2s linear infinite",
       },
     },
   },
