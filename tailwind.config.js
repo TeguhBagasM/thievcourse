@@ -72,7 +72,7 @@ export default {
         "border-animate": {
           "0%": { borderColor: "#3b82f6" },
           "25%": { borderColor: "#ec4899" },
-          "50%": { borderColor: "#06b6d4" },
+          "50%": { borderColor: "#ffff00" },
           "75%": { borderColor: "#ec4899" },
           "100%": { borderColor: "#3b82f6" },
         },
