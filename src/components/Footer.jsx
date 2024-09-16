@@ -9,16 +9,15 @@ const Footer = () => {
         {/* Bagian Kiri */}
         <div className="md:col-span-2">
           <img src={logo} alt="Thieverse Logo" className="h-14 w-auto mb-4" />
-          <h4 className="text-lg font-semibold mb-2">Kontribusi Thieverse terhadap Teknologi</h4>
-          <p className="text-sm">
-            Thieverse berkomitmen untuk menyediakan konten dan inovasi dalam dunia teknologi,
-            menciptakan dampak positif bagi pengembang dan komunitas teknologi di seluruh dunia.
+          <p className="text-sm font-medium">
+            Thieverse adalah platform teknologi yang menyediakan layanan konsultasi dan kursus
+            pemrograman, baik secara privat maupun tim, serta menerima jasa pengerjaan tugas coding.
           </p>
         </div>
 
         {/* Bagian Program */}
         <div>
-          <h4 className="text-lg font-semibold mb-4">Program Thieverse</h4>
+          <h4 className="text-lg font-semibold mb-4">Layanan Thieverse</h4>
           <ul className="space-y-2">
             <li>
               <a href="#" className="hover:text-blue-600">
@@ -27,17 +26,12 @@ const Footer = () => {
             </li>
             <li>
               <a href="#" className="hover:text-blue-600">
-                Web Development
+                Pengerjaan Tugas Coding
               </a>
             </li>
             <li>
               <a href="#" className="hover:text-blue-600">
-                Data Science
-              </a>
-            </li>
-            <li>
-              <a href="#" className="hover:text-blue-600">
-                Desain UI/UX
+                Konsultasi
               </a>
             </li>
           </ul>
@@ -48,13 +42,13 @@ const Footer = () => {
           <h4 className="text-lg font-semibold mb-4">Tentang Thieverse</h4>
           <ul className="space-y-2">
             <li>
-              <a href="#" className="hover:text-blue-600">
+              <a href="#about" className="hover:text-blue-600">
                 Tentang Kami
               </a>
             </li>
             <li>
               <a href="#" className="hover:text-blue-600">
-                Karir
+                Popular
               </a>
             </li>
             <li>
