@@ -1,68 +1,97 @@
 import React from "react";
-import { FaInstagram, FaEnvelope, FaHeart, FaTiktok, FaLinkedin, FaWhatsapp } from "react-icons/fa";
+import { FaInstagram, FaEnvelope, FaLinkedin, FaHeart, FaWhatsapp } from "react-icons/fa";
 import logo from "../assets/logo-thieverse.png";
 
 const Footer = () => {
   return (
     <footer className="bg-gray-200 text-gray-900 dark:bg-gray-900 dark:text-gray-100 py-10">
-      <div className="container mx-auto px-4 grid grid-cols-1 md:grid-cols-2 gap-8">
+      <div className="container mx-auto px-4 grid grid-cols-1 md:grid-cols-4 gap-8">
         {/* Bagian Kiri */}
-        <div className="flex flex-col items-center md:items-start">
-          <div className="flex flex-col md:flex-row items-center mb-4">
-            <img src={logo} alt="Logo" className="h-12 w-auto mb-4 md:mb-0 md:mr-3" />
-          </div>
-          <div className="flex space-x-4 mt-2">
-            <a href="https://instagram.com/teguhbagasm" target="_blank" rel="noopener noreferrer">
-              <FaInstagram
-                className="dark:text-gray-300 text-gray-600 dark:hover:text-gray-100 hover:text-gray-700"
-                size={20}
-              />
-            </a>
-            <a href="https://wa.me/+6281321821374" target="_blank" rel="noopener noreferrer">
-              <FaWhatsapp
-                className="dark:text-gray-300 text-gray-600 dark:hover:text-gray-100 hover:text-gray-700"
-                size={20}
-              />
-            </a>
-            <a
-              href="https://linkedin.com/in/teguh-bagas-mardiansyah-8390572b7/"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="dark:text-gray-300 text-gray-600 dark:hover:text-gray-100 hover:text-gray-700"
-            >
-              <FaLinkedin size={20} />
-            </a>
-            <a
-              href="mailto:teguhbagas2134@gmail.com"
-              className="dark:text-gray-300 text-gray-600 dark:hover:text-gray-100 hover:text-gray-800"
-            >
-              <FaEnvelope size={20} />
-            </a>
-          </div>
+        <div className="md:col-span-2">
+          <img src={logo} alt="Thieverse Logo" className="h-14 w-auto mb-4" />
+          <h4 className="text-lg font-semibold mb-2">Kontribusi Thieverse terhadap Teknologi</h4>
+          <p className="text-sm">
+            Thieverse berkomitmen untuk menyediakan konten dan inovasi dalam dunia teknologi,
+            menciptakan dampak positif bagi pengembang dan komunitas teknologi di seluruh dunia.
+          </p>
         </div>
 
-        {/* Bagian Kanan */}
-        <div className="flex flex-col justify-center">
-          <h3 className="font-normal text-md mb-4">Bergabung bersama kami</h3>
-          <form className="flex flex-col md:flex-row items-center">
-            <input
-              type="email"
-              placeholder="Masukan email anda"
-              className="p-3 rounded-md text-gray-800 mb-4 md:mb-0 md:mr-4 w-full md:w-auto dark:bg-gray-800 dark:text-gray-100"
-            />
-            <button
-              type="submit"
-              className="bg-blue-600 dark:bg-blue-800 dark:hover:bg-blue-700 text-white py-3 px-6 rounded-md hover:bg-blue-700 w-full md:w-auto"
-            >
-              Subscribe
-            </button>
-          </form>
+        {/* Bagian Program */}
+        <div>
+          <h4 className="text-lg font-semibold mb-4">Program Thieverse</h4>
+          <ul className="space-y-2">
+            <li>
+              <a href="#" className="hover:text-blue-600">
+                Kursus Pemrograman
+              </a>
+            </li>
+            <li>
+              <a href="#" className="hover:text-blue-600">
+                Web Development
+              </a>
+            </li>
+            <li>
+              <a href="#" className="hover:text-blue-600">
+                Data Science
+              </a>
+            </li>
+            <li>
+              <a href="#" className="hover:text-blue-600">
+                Desain UI/UX
+              </a>
+            </li>
+          </ul>
         </div>
+
+        {/* Bagian Tentang */}
+        <div>
+          <h4 className="text-lg font-semibold mb-4">Tentang Thieverse</h4>
+          <ul className="space-y-2">
+            <li>
+              <a href="#" className="hover:text-blue-600">
+                Tentang Kami
+              </a>
+            </li>
+            <li>
+              <a href="#" className="hover:text-blue-600">
+                Karir
+              </a>
+            </li>
+            <li>
+              <a href="#" className="hover:text-blue-600">
+                Kontak
+              </a>
+            </li>
+            <li>
+              <a href="#" className="hover:text-blue-600">
+                Kebijakan Privasi
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div className="flex justify-center space-x-4 mt-6">
+        <a href="https://instagram.com/teguhbagasm" target="_blank" rel="noopener noreferrer">
+          <FaInstagram className="text-blue-600 hover:text-blue-800" size={24} />
+        </a>
+        <a
+          href="https://linkedin.com/in/teguh-bagas-mardiansyah-8390572b7/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <FaLinkedin className="text-blue-600 hover:text-blue-800" size={24} />
+        </a>
+        <a href="mailto:teguhbagas2134@gmail.com" target="_blank" rel="noopener noreferrer">
+          <FaEnvelope className="text-blue-600 hover:text-blue-800" size={24} />
+        </a>
+        <a href="https://wa.me/+6281321821374" target="_blank" rel="noopener noreferrer">
+          <FaWhatsapp className="text-blue-600 hover:text-blue-800" size={24} />
+        </a>
       </div>
 
       {/* Bagian Bawah */}
-      <div className="border-t dark:border-gray-700 border-gray-400 mt-8 pt-4 text-center text-sm dark:text-gray-300 text-gray-800">
-        <p>
+      <div className="border-t dark:border-blue-700 border-blue-400 mt-8 pt-4 text-center text-md">
+        <p className="text-gray-800 dark:text-gray-300">
           © 2024 Made with <FaHeart className="inline text-red-500" /> by{" "}
           <a
             href="https://teguhbagasm.vercel.app"
