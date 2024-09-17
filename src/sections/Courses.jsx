@@ -21,7 +21,7 @@ const Courses = () => {
     <section>
       <div className="container">
         <div className="flex flex-col gap-y-24">
-          <SectionHeader title="Explore Our Comprehensive Course Catalog" link="#" />
+          <SectionHeader title="Temukan Layanan Terbaik Kami" link="#" />
 
           <motion.div
             variants={centerVariants}

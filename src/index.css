@@ -135,12 +135,12 @@
   transform: translate(0) rotate(135deg);
 }
 
-[data-difficulty="beginner"] {
+[data-difficulty="pemula"] {
   --bg: #049905;
   --bg-alpha-35: rgba(4, 154, 4, 0.35);
 }
 
-[data-difficulty="intermediate"] {
+[data-difficulty="menengah"] {
   --bg: #f89e00;
   --bg-alpha-35: rgba(250, 158, 0, 0.35);
 }
