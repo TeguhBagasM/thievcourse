@@ -33,11 +33,13 @@ const Instructors = () => {
     sliderRef.current && Object.assign(sliderRef.current, swiperParams);
   }, []);
   return (
-    <section id="instructors">
+    <section id="team">
       <div className="container">
-        <div className="flex flex-col gap-y-24 ">
-          <SectionHeader title="Meet Our Expert Instructors" link="#" />
-
+        <div className="flex flex-col gap-y-8 ">
+          <SectionHeader title="Temui Tim keren Kami" link="#" />
+          <p className="text-base font-medium text-gray-50 dark:text-gray-300">
+            Disclaimer : Untuk nama-nama Tim kami mengambil dari beberapa penyanyi dan aktor terkenal
+          </p>
           <motion.div
             variants={centerVariants}
             initial="hidden"

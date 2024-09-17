@@ -30,7 +30,7 @@ import {
   instructor12,
   instructor13,
 } from "./images";
-import { FaComments, FaCalendarAlt, FaWallet, FaUserFriends, FaClock } from "react-icons/fa";
+import { FaComments, FaWallet, FaUserFriends, FaClock } from "react-icons/fa";
 
 export const navLinks = [
   {
@@ -46,8 +46,8 @@ export const navLinks = [
     title: "Populer",
   },
   {
-    id: "instructors",
-    title: "Instructors",
+    id: "team",
+    title: "Tim Kami",
   },
   {
     id: "blog",
@@ -98,7 +98,7 @@ export const aboutFeaturs = [
   },
 ];
 
-export const categories = ["Pengerjaan Tugas", "Kursus", "Konsultasi"];
+export const categories = ["Jasa", "Kursus", "Konsultasi"];
 
 export const courses = [
   {
@@ -152,7 +152,7 @@ export const courses = [
   {
     id: 5,
     title: "HTML & CSS",
-    category: "Pengerjaan Tugas",
+    category: "Jasa",
     difficulty: "Pemula",
     thumbnail: course05,
     instructor: {
@@ -164,7 +164,7 @@ export const courses = [
   {
     id: 6,
     title: "PHP",
-    category: "Pengerjaan Tugas",
+    category: "Jasa",
     difficulty: "Menengah",
     thumbnail: course06,
     instructor: {
@@ -176,7 +176,7 @@ export const courses = [
   {
     id: 7,
     title: "Laravel",
-    category: "Pengerjaan Tugas",
+    category: "Jasa",
     difficulty: "Menengah",
     thumbnail: course07,
     instructor: {
@@ -188,7 +188,7 @@ export const courses = [
   {
     id: 8,
     title: "Internet of Things",
-    category: "Pengerjaan Tugas",
+    category: "Jasa",
     difficulty: "Menengah",
     thumbnail: course08,
     instructor: {
@@ -200,7 +200,7 @@ export const courses = [
   {
     id: 9,
     title: "Java",
-    category: "Pengerjaan Tugas",
+    category: "Jasa",
     difficulty: "Menengah",
     thumbnail: course09,
     instructor: {
