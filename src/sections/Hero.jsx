@@ -1,7 +1,7 @@
 import { hero01, hero02, hero03, roundedText } from "../constants/images";
 import { motion } from "framer-motion";
 import { leftSideVariants, rightSideVariants } from "./../constants/motion";
-import { FaArrowRight, FaWhatsapp } from "react-icons/fa";
+import { FaArrowDown, FaWhatsapp } from "react-icons/fa";
 
 const Hero = () => {
   const handleWhatsApp = () => {
@@ -28,7 +28,7 @@ const Hero = () => {
                 informatika.
               </p>
             </div>
-            <div className="flex gap-4">
+            <div className="flex flex-col gap-4 items-center lg:flex-row">
               <button
                 type="button"
                 onClick={handleWhatsApp}
@@ -43,7 +43,7 @@ const Hero = () => {
                 className="flex items-center px-6 py-2 rounded-full bg-gradient-to-r from-blue-500 to-purple-500 text-white font-semibold transition-colors duration-300 hover:from-purple-600 hover:to-blue-500 focus:outline-none focus:ring-2 focus:ring-blue-300 shadow-lg shadow-blue-500/50"
               >
                 Lihat Layanan
-                <FaArrowRight className="ml-2" />
+                <FaArrowDown className="ml-2" />
               </a>
             </div>
           </motion.div>
