@@ -18,7 +18,7 @@ const Courses = () => {
     } else setCategorizedCourses(courses.filter((course) => course.category === item));
   };
   return (
-    <section>
+    <section id="layanan">
       <div className="container">
         <div className="flex flex-col gap-y-24">
           <SectionHeader title="Temukan Layanan Terbaik Kami" link="#" />
