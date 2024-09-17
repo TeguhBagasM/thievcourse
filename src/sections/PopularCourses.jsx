@@ -33,7 +33,7 @@ const PopularCourses = () => {
     <section id="popular">
       <div className="container">
         <div className="flex flex-col gap-y-24">
-          <SectionHeader title="Explore Most Popular Our Courses" link="#" />
+          <SectionHeader title="Layanan Terpopuler" link="#" />
 
           {/* slider */}
           <motion.div
