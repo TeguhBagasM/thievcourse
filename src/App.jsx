@@ -1,4 +1,4 @@
-import { Header, Statistics, CTA, Footer } from "./components";
+import { Header, Statistics, CTA, WhatsApp, Footer } from "./components";
 import { About, Blogs, Courses, Hero, Instructors, PopularCourses } from "./sections";
 
 export default function App() {
@@ -13,6 +13,7 @@ export default function App() {
       <Instructors />
       <Blogs />
       <CTA />
+      <WhatsApp />
       <Footer />
     </div>
   );
