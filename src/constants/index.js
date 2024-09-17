@@ -38,12 +38,12 @@ export const navLinks = [
     title: "Home",
   },
   {
-    id: "about",
-    title: "About",
+    id: "layanan",
+    title: "Layanan",
   },
   {
     id: "popular",
-    title: "Popular",
+    title: "Populer",
   },
   {
     id: "instructors",

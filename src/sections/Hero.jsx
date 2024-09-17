@@ -1,9 +1,12 @@
 import { hero01, hero02, hero03, roundedText } from "../constants/images";
 import { motion } from "framer-motion";
 import { leftSideVariants, rightSideVariants } from "./../constants/motion";
-import { FaWhatsapp } from "react-icons/fa";
+import { FaArrowRight, FaWhatsapp } from "react-icons/fa";
 
 const Hero = () => {
+  const handleWhatsApp = () => {
+    window.open("https://wa.me/+6281321821374?text=Halo%20Thiever", "_blank");
+  };
   return (
     <section id="home" className="flex items-center">
       <div className="container flex items-center justify-center">
@@ -25,13 +28,24 @@ const Hero = () => {
                 informatika.
               </p>
             </div>
-            <button
-              type="button"
-              className="relative flex items-center px-6 py-2 border-1 rounded-full bg-white text-gray-950 font-semibold dark:bg-gray-950 dark:text-gray-100 transition-colors duration-300 focus:outline-none focus:ring-2 focus:ring-blue-300 animate-shadow-animate border-transparent"
-            >
-              <FaWhatsapp className="mr-2 text-gray-950 dark:text-gray-100 text-xl" />
-              Tanya via WhatsApp
-            </button>
+            <div className="flex gap-4">
+              <button
+                type="button"
+                onClick={handleWhatsApp}
+                className="relative flex items-center px-6 py-2 border-1 rounded-full bg-white text-gray-950 font-semibold dark:bg-gray-950 dark:text-gray-100 transition-colors duration-300 focus:outline-none focus:ring-2 focus:ring-blue-300 animate-shadow-animate border-transparent"
+              >
+                <FaWhatsapp className="mr-2 text-gray-950 dark:text-gray-100 text-xl" />
+                Tanya via WhatsApp
+              </button>
+              <a
+                href="#layanan"
+                type="button"
+                className="flex items-center px-6 py-2 rounded-full bg-gradient-to-r from-blue-500 to-purple-500 text-white font-semibold transition-colors duration-300 hover:from-purple-600 hover:to-blue-500 focus:outline-none focus:ring-2 focus:ring-blue-300 shadow-lg shadow-blue-500/50"
+              >
+                Lihat Layanan
+                <FaArrowRight className="ml-2" />
+              </a>
+            </div>
           </motion.div>
 
           {/* ========== bagian kanan ========== */}

@@ -72,7 +72,7 @@ export default {
         "shadow-animate": {
           "0%": { boxShadow: "0 0 8px 4px rgba(59, 130, 246, 0.7)" }, // Initial shadow
           "25%": { boxShadow: "0 0 8px 4px rgba(236, 72, 153, 0.7)" }, // Intermediate shadow
-          "50%": { boxShadow: "0 0 8px 4px rgba(6, 182, 212, 0.7)" }, // Middle shadow
+          "50%": { boxShadow: "0 0 8px 4px rgba(168, 85, 247, 0.7)" }, // Middle shadow
           "75%": { boxShadow: "0 0 8px 4px rgba(236, 72, 153, 0.7)" }, // Intermediate shadow
           "100%": { boxShadow: "0 0 8px 4px rgba(59, 130, 246, 0.7)" }, // Final shadow
         },
