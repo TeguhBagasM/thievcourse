@@ -20,17 +20,17 @@ const Footer = () => {
           <h4 className="text-lg font-semibold mb-4">Layanan Thieverse</h4>
           <ul className="space-y-2">
             <li>
-              <a href="#" className="hover:text-blue-600">
+              <a href="#layanan" className="hover:text-blue-600">
                 Kursus Pemrograman
               </a>
             </li>
             <li>
-              <a href="#" className="hover:text-blue-600">
+              <a href="#layanan" className="hover:text-blue-600">
                 Pengerjaan Tugas Coding
               </a>
             </li>
             <li>
-              <a href="#" className="hover:text-blue-600">
+              <a href="#layanan" className="hover:text-blue-600">
                 Konsultasi
               </a>
             </li>
@@ -42,23 +42,23 @@ const Footer = () => {
           <h4 className="text-lg font-semibold mb-4">Tentang Thieverse</h4>
           <ul className="space-y-2">
             <li>
-              <a href="#about" className="hover:text-blue-600">
-                Tentang Kami
+              <a href="#layanan" className="hover:text-blue-600">
+                Layanan Kami
               </a>
             </li>
             <li>
-              <a href="#" className="hover:text-blue-600">
-                Popular
+              <a href="#popular" className="hover:text-blue-600">
+                Layanan Populer
               </a>
             </li>
             <li>
-              <a href="#" className="hover:text-blue-600">
-                Kontak
+              <a href="#team" className="hover:text-blue-600">
+                Tim Kami
               </a>
             </li>
             <li>
-              <a href="#" className="hover:text-blue-600">
-                Kebijakan Privasi
+              <a href="#blog" className="hover:text-blue-600">
+                Blog
               </a>
             </li>
           </ul>
