@@ -13,7 +13,7 @@ const CTA = () => {
       <div className="container h-[350px]">
         <div className="flex flex-col items-center justify-center w-full h-full px-6 gap-y-6 bg-gradient-to-r from-cyan-500 to-blue-600 dark:from-cyan-600 dark:to-blue-900 rounded-3xl shadow-lg">
           <h2 className="text-center text-4xl font-bold text-gray-100 leading-snug">
-            Join Our Learning <br /> Community
+            Bergabung bersama <br /> Thieverse
           </h2>
 
           <form className="w-full max-w-[500px]">
