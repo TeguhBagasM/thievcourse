@@ -29,7 +29,7 @@ const Blogs = () => {
     <section id="blog">
       <div className="container">
         <div className="flex flex-col gap-y-24">
-          <SectionHeader title="Insights and Knowledge Hub" link="#" />
+          <SectionHeader title="Pusat Wawasan dan Pengetahuan" link="#" />
 
           <motion.div
             variants={centerVariants}

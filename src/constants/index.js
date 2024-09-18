@@ -356,27 +356,30 @@ export const instructors = [
 export const blogs = [
   {
     id: 1,
-    title: "Mastering Time Management",
-    description: "Unlock productivity with time management techniques.",
+    title: "Menguasai Teknik Joki Pemrograman",
+    description:
+      "Tingkatkan keahlian Anda dalam menyelesaikan tugas pemrograman dengan cepat dan efisien.",
     thumbnail: blog01,
   },
   {
     id: 2,
-    title: "The Power of Data: Insights for Business Success",
-    description: "Learn how to harness the power of data analytics, interpret trends.",
+    title: "Kekuatan Algoritma: Kunci Sukses dalam Pemrograman",
+    description:
+      "Pelajari cara memanfaatkan algoritma untuk memecahkan masalah kompleks dalam pemrograman.",
     thumbnail: blog02,
   },
   {
     id: 3,
-    title: "Unlocking Your Creative Potential",
+    title: "Membuka Potensi Kreatif dalam Pengembangan Perangkat Lunak",
     description:
-      "Discover the techniques, tips, and inspiration you need to unleash your inner creativity.",
+      "Temukan teknik, tips, dan inspirasi yang Anda butuhkan untuk mengembangkan solusi perangkat lunak inovatif.",
     thumbnail: blog03,
   },
   {
     id: 4,
-    title: "The Future of Work: Navigating Remote Collaboration",
-    description: "Explore the latest trends and tools shaping remote collaboration.",
+    title: "Masa Depan Pemrograman: Navigasi Kolaborasi Jarak Jauh",
+    description:
+      "Jelajahi tren terbaru dan alat yang membentuk kolaborasi jarak jauh dalam industri teknologi.",
     thumbnail: blog04,
   },
 ];
