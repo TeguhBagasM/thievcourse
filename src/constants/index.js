@@ -98,7 +98,7 @@ export const aboutFeaturs = [
   },
 ];
 
-export const categories = ["Jasa", "Kursus", "Konsultasi"];
+export const categories = ["Joki", "Kursus", "Konsultasi"];
 
 export const courses = [
   {
@@ -152,7 +152,7 @@ export const courses = [
   {
     id: 5,
     title: "HTML & CSS",
-    category: "Jasa",
+    category: "Joki",
     difficulty: "Pemula",
     thumbnail: course05,
     instructor: {
@@ -164,7 +164,7 @@ export const courses = [
   {
     id: 6,
     title: "PHP",
-    category: "Jasa",
+    category: "Joki",
     difficulty: "Menengah",
     thumbnail: course06,
     instructor: {
@@ -176,7 +176,7 @@ export const courses = [
   {
     id: 7,
     title: "Laravel",
-    category: "Jasa",
+    category: "Joki",
     difficulty: "Menengah",
     thumbnail: course07,
     instructor: {
@@ -188,7 +188,7 @@ export const courses = [
   {
     id: 8,
     title: "Internet of Things",
-    category: "Jasa",
+    category: "Joki",
     difficulty: "Menengah",
     thumbnail: course08,
     instructor: {
@@ -200,7 +200,7 @@ export const courses = [
   {
     id: 9,
     title: "Java",
-    category: "Jasa",
+    category: "Joki",
     difficulty: "Menengah",
     thumbnail: course09,
     instructor: {

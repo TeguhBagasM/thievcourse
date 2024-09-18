@@ -23,6 +23,10 @@ const DifficultyLevel = ({ difficulty }) => {
 
 const Course = forwardRef(
   ({ id, title, category, difficulty, thumbnail, instructor: { name, pic }, rating }, ref) => {
+    const handleWhatsapp = (category, title) => {
+      const message = encodeURIComponent(`Halo Thiever, Saya ingin ${category} di kategori ${title}`);
+      window.open(`https://wa.me/6281321821374?text=${message}`, "_blank");
+    };
     return (
       <div
         className="relative group h-[250px] border-[1.5px] border-solid border-transparent rounded-4xl overflow-hidden transition-colors duration-300"
@@ -36,9 +40,12 @@ const Course = forwardRef(
         </div>
 
         <div className="absolute inset-x-0 bottom-0 h-24 p-2 m-2 bg-white dark:bg-gray-900 border-[1.5px] border-solid border-transparent rounded-3xl  transition-colors duration-300 group-hover:border-gray-10">
-          <a href="#" className="flex flex-col justify-between h-full " title={title}>
+          <a
+            onClick={() => handleWhatsapp(category, title)}
+            className="flex flex-col justify-between h-full cursor-pointer"
+            title={title}
+          >
             {/* ===== course title ===== */}
-
             <div className="flex justify-between gap-4">
               <p className="overflow-hidden text-lg font-medium text-gray-10 whitespace-nowrap dark:text-gray-200 text-ellipsis">
                 {title}
