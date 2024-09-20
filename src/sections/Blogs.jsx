@@ -28,7 +28,7 @@ const Blogs = () => {
   return (
     <section id="blog">
       <div className="container">
-        <div className="flex flex-col gap-y-24">
+        <div className="flex flex-col gap-y-20">
           <SectionHeader title="Pusat Wawasan dan Pengetahuan" link="#" />
 
           <motion.div
