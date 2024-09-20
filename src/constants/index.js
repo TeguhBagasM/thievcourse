@@ -356,7 +356,7 @@ export const instructors = [
 export const blogs = [
   {
     id: 1,
-    title: "Menguasai Teknik Joki Pemrograman",
+    title: "Menguasai Pemrograman",
     description:
       "Tingkatkan keahlian Anda dalam menyelesaikan tugas pemrograman dengan cepat dan efisien.",
     thumbnail: blog01,
